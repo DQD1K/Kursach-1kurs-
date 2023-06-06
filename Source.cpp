@@ -73,4 +73,5 @@ void Get_answer_podbor1(double A, double C) {
 	if ((B != 0) && (C != 0) && (A == 0)) { Get_answer_podbor2(B, C); }
 	if ((A == 0) && (B == 0) && (C == 0)) { cout << "0 = 0"; }
 	if ((A != 0) && (B == 0) && (C == 0)) { cout << "Reshenie: 0"; }
+	if ((A == 0) && (B == 0) && (C != 0)) { cout << "Resheniya net(0*x^2 + 0*x + C != 0); }
 }
